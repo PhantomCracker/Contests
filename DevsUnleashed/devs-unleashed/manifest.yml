@@ -1,0 +1,14 @@
+modules:
+  jira:issuePanel:
+    - key: devs-unleashed-hello-world-panel
+      function: main
+      title: Devs Unleashed App
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/59139dcf-8a15-46fb-8028-3c20c6b7721b
+permissions:
+  scopes:
+    - read:jira-work
